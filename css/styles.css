@@ -110,16 +110,29 @@ p{
     background-color: #fff;
   }
 
+  .color-section{
+    background-color: #ff4c68;
+    color: #fff;
+  }
+
 
   .price-text{
     font-size: 3rem;
     line-height: 1.5;
   }
 
+/* social icon / footer section */
+.social-icon{
+  margin: 20px 10px;
+}
+
+.profile-pic{
+  width: 30%;
+  border-radius: 100%;
+}
 /* ************************************ ID SELECTOR **************************** */
 #title{
-    background-color: #ff4c68;
-    color: #fff;
+
     text-align: left;
 }
 
@@ -154,11 +167,16 @@ p{
     text-align: center;
 }
 
+#footer{
+  color: #fff;
+  background-color: #092532;
+
+}
 
 
 
 
-/* @media (max-width: 1028px) {
+@media (max-width: 1028px) {
 
     #title {
       text-align: center;
@@ -168,4 +186,4 @@ p{
       position: static;
       transform: rotate(0);      
     }
-} */
+}

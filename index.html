@@ -45,7 +45,7 @@
   </head>
 
   <body>
-    <section id="title">
+    <section id="title" class="color-section">
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -64,13 +64,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About</a>
               </li>
             </ul>
           </div>
@@ -83,10 +86,7 @@
             <button type="button" class="btn btn-dark btn-lg dawnload-button">
               <i class="fab fa-apple"></i> Download
             </button>
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg dawnload-button"
-            >
+            <button type="button" class="btn btn-outline-light btn-lg dawnload-button">
               <i class="fab fa-google-play"></i> Download
             </button>
           </div>
@@ -256,16 +256,39 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <section id="cta" class=" container-fluid color-section">
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg dawnload-button">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg dawnload-button">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </section>
+    
+    <!-- About me -->
+    <section id="about-me"  class="white-section">
+      <div class="container-fluid">
+        <h1>About me</h1>
+        <img  class="profile-pic" src="images/souma.png" alt="profile pic">
+        <h2>Hi!</h2>
+        <h3>I'am Souma</h3>
+        <p>Web | Android | Java Devloper</p>
+      </div>
+
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2020 TinDog</p>
+
+      </div>
     </footer>
   </body>
 </html>
