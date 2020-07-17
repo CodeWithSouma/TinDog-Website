@@ -6,14 +6,15 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
+  
   }
 
+  p{
 
-
-p{
     color: #8f8f8f;
     padding: 0 3%;
 }
+
 /* *********************************** CLASS SELECTOR ************************** */
 /* Headings */
 
@@ -21,39 +22,104 @@ p{
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
     line-height: 1.5;
+    
   }
+
+  /* fluid container */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* carousel item */
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* color section */
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* dawnload button */
+.dawnload-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* fature section */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* feature icon */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* press logo section */
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* pricing column */
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.profile-pic{
+  width: 30%;
+  border-radius: 100%;
+}
   /* priceing heading */
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
   }
 
-.container-fluid{
-    padding: 7% 15%;
 
-}
-
-/* navbar */
-.navbar{
-    padding: 0 0 4.5rem;
-}
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+  /* social icon / footer section */
+.social-icon{
+  margin: 20px 10px;
 }
 
-.nav-item{
-    padding: 0 18px;
-}
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-  }
-/* dawnload button */
-.dawnload-button{
-    margin: 5% 3% 5% 0;
-}
+
 /* title image */
 .title-image {
     width: 60%;
@@ -61,24 +127,6 @@ p{
     position: absolute;
     right: 30%;
     
-  }
-
-
-  .feature-title {
-    font-size: 1.5rem;
-  }
-  
-  .feature-box {
-    padding: 4.5%;
-  }
-  
-  .icon {
-    color: #ef8172;
-    margin-bottom: 1rem;
-  }
-  
-  .icon:hover {
-    color: #ff4c68;
   }
 
 
@@ -93,44 +141,40 @@ p{
     line-height: 1.5;
 }
 
-/* press logo section */
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-/* carousel item */
-.carousel-item{
-    padding: 7% 15%;
-}
-/* pricing column */
-.pricing-col{
-    padding: 3% 2%;
-}
 .white-section {
     background-color: #fff;
   }
 
-  .color-section{
-    background-color: #ff4c68;
-    color: #fff;
-  }
 
-
-  .price-text{
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-
-/* social icon / footer section */
-.social-icon{
-  margin: 20px 10px;
-}
-
-.profile-pic{
-  width: 30%;
-  border-radius: 100%;
-}
 /* ************************************ ID SELECTOR **************************** */
+/* feature section */
+#features {
+  position: relative;
+}  
+
+/* footer */
+#footer{
+  color: #fff;
+  background-color: #092532;
+
+}
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  /* background-color: #204051; */
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+/* title */
 #title{
 
     text-align: left;
@@ -140,10 +184,6 @@ p{
     padding: 3% 15% 7%;
   }
 
-/* feature section */
-#features {
-    position: relative;
-  }  
 
 /* testimonials section */
 #testimonials{
@@ -153,28 +193,9 @@ p{
     color: #fff;    
 }
 
-/* press section */
-#press{
-    background-color: #ef8172;
-    /* background-color: #204051; */
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-/* pricing */
-#pricing{
-    padding: 100px;
-    text-align: center;
-}
-
-#footer{
-  color: #fff;
-  background-color: #092532;
-
-}
 
 
-
+/* media quary break point */
 
 @media (max-width: 1028px) {
 
