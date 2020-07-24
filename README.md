@@ -23,5 +23,5 @@ STEP 5: COPPY INDEX.HTML FULL PATH AND OPEN ANY BROWSER AND PASTE THE PATH
 ![alt text](./screen-shot/tindog.png)
 
 ## LICENCE
-**[Apache 2.0](LICENSE)**
+**[GNU V3.0](LICENSE)**
 
